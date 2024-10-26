@@ -1,0 +1,12 @@
+Since I am aware about the frontend part but I am unawre about the backend so I am writting the stepwise command that is installed in this project..
+
+1.npm init
+2.npm install express
+3.npm i nodemon.(It automatically restarts the server in any changes...)
+4.npm i dotenv
+5.npm i mongoose
+6.frontend/npm i axios.(Uesd for sending and receving the http request)
+7.npm i cors (used in connecting frontend to the backend otherwise generates error)
+8.npm i bcrypt (used for securing the password changes its origianlity to the other form..)
+9.npm i toast(for the designd popup)
+10.
