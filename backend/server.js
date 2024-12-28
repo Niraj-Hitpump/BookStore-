@@ -21,9 +21,6 @@ const URI = process.env.MongoDBURI;
 // connect to the mongodb
 try {
     mongoose.connect(URI, {
-        // using these two line because of locally cloud in atlas no need to use
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
     });
     console.log("Connected to Mongodb")
 } catch (error) {
