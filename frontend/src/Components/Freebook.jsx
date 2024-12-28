@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import { useState, useEffect } from "react";
 
@@ -15,7 +14,7 @@ const Freebook = () => {
             try {
                 const res = await axios.get("http://localhost:4001/book");
                 console.log(res.data);
-                const data = res.data.filter((data) => data.category === "Free");
+                const data = res.data.filter((data) => data.category.toLowerCase() === "free");
                 setBook(data);
             } catch (error) {
                 console.log(error);
