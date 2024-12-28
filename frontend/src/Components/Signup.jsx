@@ -27,7 +27,7 @@ const Signup = () => {
 
         try {
             const res = await axios.post(
-                "https://bookstore-bk.onrender.com/user/signup",
+                "http://localhost:4001/user/signup",
                 userInfo
             );
 
